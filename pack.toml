@@ -1,4 +1,6 @@
 name = "Sky FABRICation 2 Light"
+author = "MSandro"
+version = "1.0.1"
 pack-format = "packwiz:1.0.0"
 
 [index]
