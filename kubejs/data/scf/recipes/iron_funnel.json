@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "funnels",
+  "pattern": [
+    "NXN",
+    "NCN",
+    "YGY"
+  ],
+  "key": {
+    "N": {
+      "item": "minecraft:iron_ingot"
+    },
+    "C": {
+      "item": "scf:cobblestone_funnel"
+    },
+    "G": {
+      "item": "minecraft:coal_block"
+    },
+    "X": {
+      "item": "workings:block_of_pipes"
+    },
+    "Y": {
+      "item": "compress:compressed_iron_block_1"
+    }
+  },
+  "result": {
+    "item": "scf:iron_funnel",
+    "count": 1
+  }
+}

@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "XXX",
+      "YQY",
+      "ZAZ"
+    ],
+    "key": {
+      "Y": {
+        "item": "minecraft:diamond"
+      },
+      "X": {
+          "item": "minecraft:glass"
+      },
+      "Z": {
+          "item": "minecraft:obsidian"
+      },
+      "A": {
+          "item": "modern_industrialization:basic_machine_hull"
+      },
+      "Q": {
+        "item": "agape_space:shard_power"
+      }
+    },
+    "result": {
+      "item": "agape_space:solargen",
+      "count": 1
+    }
+  }

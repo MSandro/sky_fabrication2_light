@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PSP",
+    "PSP",
+    "T T"
+  ],
+  "key": {
+    "P": {
+      "item": "blockus:bamboo_planks"
+    },
+    "S": {
+      "item": "minecraft:string"
+    },
+    "T": {
+      "item": "minecraft:twisting_vines"
+    }
+  },
+  "result": {
+    "item": "simpletech:sieve_bio"
+  }
+}

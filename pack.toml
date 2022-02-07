@@ -1,0 +1,11 @@
+name = "Sky FABRICation 2 Light"
+pack-format = "packwiz:1.0.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "834c0873f5b7b8acb825fc5451c7b06ae41e45fd814df9f0e185186454964be0"
+
+[versions]
+fabric = "0.12.12"
+minecraft = "1.17.1"

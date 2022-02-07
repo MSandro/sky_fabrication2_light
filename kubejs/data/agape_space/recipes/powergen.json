@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "XFX",
+      "FRF",
+      "XFX"
+    ],
+    "key": {
+      "R": {
+        "item": "minecraft:furnace"
+      },
+      "X": {
+          "item": "minecraft:gold_ingot"
+      },
+      "F": {
+          "item": "modern_industrialization:basic_machine_hull"
+      }
+    },
+    "result": {
+      "item": "agape_space:powergen",
+      "count": 1
+    }
+  }

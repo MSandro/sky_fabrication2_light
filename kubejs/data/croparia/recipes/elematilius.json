@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+  "PIP",
+  "IRI",
+  "PIP"
+  ],
+  "key": {
+    "I": {
+      "item": "modern_industrialization:stainless_steel_ingot"
+    },
+    "R": {
+      "item": "modern_industrialization:stainless_steel_ingot"
+    },
+    "P": {
+      "item": "modern_industrialization:supraconductor_ingot"
+    }
+  },
+  "result": {
+    "item": "croparia:elematilius"
+  }
+}

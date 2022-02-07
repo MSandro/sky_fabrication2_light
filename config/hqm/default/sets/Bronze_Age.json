@@ -1,0 +1,1122 @@
+{
+  "name": "Bronze Age",
+  "quests": [
+    {
+      "uuid": "d304704d-a70c-4ad5-b9b8-4cb89a470c93",
+      "name": "Golden Furnace",
+      "description": "As you might see, the Golden Furnace is the next Tier one in the Furnace Area.",
+      "x": 296,
+      "y": 21,
+      "icon": {
+        "id": "fabric-furnaces:gold_furnace",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "fabric-furnaces:gold_furnace",
+                "Count": 1
+              },
+              "required": 3
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2ec2349f-4aed-4a60-b1c0-16d5b90068e2"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:diamond",
+          "Count": 1
+        },
+        {
+          "id": "minecraft:gold_ingot",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2086464c-4983-4f2e-bc75-8e5e7ea27e68",
+      "name": "Electrum",
+      "description": "The Smeltary also allows you to get Electrum. It`s required for the Gold Funnel. Use Silver and Gold (found in the Nether) to produce it.",
+      "x": 248,
+      "y": 139,
+      "icon": {
+        "id": "modern_industrialization:electrum_ingot",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "modern_industrialization:electrum_ingot",
+                "Count": 1
+              },
+              "required": 25
+            },
+            {
+              "item": {
+                "id": "modern_industrialization:silver_ingot",
+                "Count": 1
+              },
+              "required": 15
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "387a550b-6321-43ec-8e28-1784fc572dfe"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "modern_industrialization:silver_ingot",
+          "Count": 5
+        },
+        {
+          "id": "modern_industrialization:electrum_ingot",
+          "Count": 5
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "e3d66976-e339-44a2-8a80-a7afdc32e06d",
+      "name": "New Resources",
+      "description": "Your are good to go for Electrum, but first you need some Silver, Gold and a smeltery. But for now you have to find some Gold in the Nether. With the Iron Funnel you now get Copper, Silver and Redstone in addition.",
+      "x": 153,
+      "y": 139,
+      "icon": {
+        "id": "minecraft:copper_ingot",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:copper_ingot",
+                "Count": 1
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "modern_industrialization:silver_ingot",
+                "Count": 1
+              },
+              "required": 8
+            },
+            {
+              "item": {
+                "id": "minecraft:redstone",
+                "Count": 1
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a6493aa4-cd33-471d-8148-be32b35e0ec3"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [
+        {
+          "id": "minecraft:copper_ingot",
+          "Count": 4
+        },
+        {
+          "id": "modern_industrialization:silver_ingot",
+          "Count": 4
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "cde04530-827e-4656-8003-b15a3d8e11a3",
+      "name": "Next Wand upgrade",
+      "description": "You are tired of breaking the Stone Wand really fast? Well... Simple build a Iron Wand now. Its has much more Durability.",
+      "x": 126,
+      "y": 193,
+      "icon": {
+        "id": "wands:iron_wand",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "wands:iron_wand",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a6493aa4-cd33-471d-8148-be32b35e0ec3"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "skyutils:charcoal_block",
+          "Count": 10
+        },
+        {
+          "id": "minecraft:iron_block",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "de1fa941-489c-4a8f-961c-a9fb264960f1",
+      "name": "Basket",
+      "description": "The Basket is a container block that can capture dropped items through its open side, like a Hopper.\nTipp: this is the best way to automate your Grass Block production, by placing the basket on top of the Composter.",
+      "x": 18,
+      "y": 43,
+      "icon": {
+        "id": "farmersdelight:basket",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "farmersdelight:basket",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "672bcee9-4ae4-4e6e-99ee-73eada826d3a"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "farmersdelight:stuffed_pumpkin",
+          "Count": 6
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a0b975af-1aca-4c79-a072-0a52fb92fe01",
+      "name": "Cooking",
+      "description": "Craft a Cooking Pot and a Stove. It allows you to cook many variations of meals.",
+      "x": 18,
+      "y": 11,
+      "icon": {
+        "id": "farmersdelight:stove",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "farmersdelight:stove",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "farmersdelight:cooking_pot",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "de1fa941-489c-4a8f-961c-a9fb264960f1"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "farmersdelight:vegetable_noodles",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "4c636b43-0242-4c39-9964-48badd7703ab",
+      "name": "Bronze \u0026 More",
+      "description": "Finally you are able to get mixed Ingots.\nYou will need a lot of Bronze in the next Age, start producing some.",
+      "x": 205,
+      "y": 96,
+      "bigicon": true,
+      "icon": {
+        "id": "modern_industrialization:bronze_ingot",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "modern_industrialization:bronze_ingot",
+                "Count": 1
+              },
+              "required": 64
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "387a550b-6321-43ec-8e28-1784fc572dfe"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "modern_industrialization:guidebook",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a628c171-32ff-4941-a851-55ea536ea2ec",
+      "name": "Nether Quartz",
+      "description": "You are tired of searching for Nether Quartz? Well, lucky you I guess! With the Gold Funnel, you are able to obtain Nether Quartz now.",
+      "x": 248,
+      "y": 14,
+      "icon": {
+        "id": "minecraft:quartz",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:quartz",
+                "Count": 1
+              },
+              "required": 32
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "1adc409f-9abb-453c-98ae-0e1b530d9247"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:gold_nugget",
+          "Count": 18
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "61281bf3-2ca2-44dd-a59b-43aa10e7dfd0",
+      "name": "Redstone",
+      "description": "Yes, you read correct, the Iron Funnel drops Redstone aswell! Lucky enough, there are TONS of ways to use it..",
+      "x": 42,
+      "y": 155,
+      "bigicon": true,
+      "icon": {
+        "id": "minecraft:redstone",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:redstone",
+                "Count": 1
+              },
+              "required": 64
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a6493aa4-cd33-471d-8148-be32b35e0ec3"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "modern_industrialization:silver_ingot",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "20c1d1d9-9c16-44a6-945f-f0220afec2c8",
+      "name": "Copper Golem",
+      "description": "You can spawn in the golem with a bottom copper block, middle carved pumpkin block and top lightning rod.\n\nIt can press Copper Buttons for you.",
+      "x": 153,
+      "y": 101,
+      "icon": {
+        "id": "minecraft:copper_block",
+        "Count": 1,
+        "tag": {}
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:copper_block",
+                "Count": 1,
+                "tag": {}
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:carved_pumpkin",
+                "Count": 1,
+                "tag": {}
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:lightning_rod",
+                "Count": 1,
+                "tag": {}
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "e3d66976-e339-44a2-8a80-a7afdc32e06d"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "a6493aa4-cd33-471d-8148-be32b35e0ec3",
+      "name": "Iron Funnel",
+      "description": "Now you are able to upgrade to a Iron Funnel! It is faster and grants you acces to new resources.\n\nRight-Click it to see the outputs.",
+      "x": 80,
+      "y": 136,
+      "bigicon": true,
+      "icon": {
+        "id": "scf:iron_funnel",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "scf:iron_funnel",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "782d5d8f-4033-4708-ac3b-0105d776434e"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:iron_ore",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7cc01421-e0b7-49cd-9b7c-7746c73332b6",
+      "name": "Upgrade your Furnace",
+      "description": "You should upgrade your Furnace now to at least Iron-Tier. It is faster and more efficient.",
+      "x": 138,
+      "y": 166,
+      "icon": {
+        "id": "fabric-furnaces:iron_furnace",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "fabric-furnaces:iron_furnace",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a6493aa4-cd33-471d-8148-be32b35e0ec3"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:coal",
+          "Count": 32
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "ceeae939-9d5c-448a-a705-40d77bc996b8",
+      "name": "Upgrading once more",
+      "description": "You feel the power of iron? Then you are ready to get the next Tier Tools!",
+      "x": 83,
+      "y": 98,
+      "icon": {
+        "id": "gateofbabylon:iron_broadsword",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "gateofbabylon:iron_broadsword",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:iron_pickaxe",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:iron_shovel",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:iron_axe",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:iron_hoe",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            },
+            {
+              "item": {
+                "id": "skyutils:iron_hammer",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a6493aa4-cd33-471d-8148-be32b35e0ec3"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "skyutils:charcoal_block",
+          "Count": 16
+        },
+        {
+          "id": "minecraft:coal_block",
+          "Count": 12
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "11e5e891-1b9c-45fd-915e-b6392e6bdfff",
+      "name": "Armor up!",
+      "description": "We all know that Tools are important... But as far as you have travelled in the Nether, you should feel the need of some Protection.",
+      "x": 80,
+      "y": 53,
+      "bigicon": true,
+      "icon": {
+        "id": "minecraft:iron_helmet",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:iron_helmet",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:iron_chestplate",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:iron_leggings",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:iron_boots",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            },
+            {
+              "item": {
+                "id": "gateofbabylon:iron_shield",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "ceeae939-9d5c-448a-a705-40d77bc996b8"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:iron_block",
+          "Count": 2
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "2ec2349f-4aed-4a60-b1c0-16d5b90068e2",
+      "name": "Gold Nuggets",
+      "description": "With the Nether Gold you will get Gold Nuggets. Use them to get Ingots.",
+      "x": 296,
+      "y": 65,
+      "icon": {
+        "id": "minecraft:gold_nugget",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:gold_nugget",
+                "Count": 1
+              },
+              "required": 63
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "1adc409f-9abb-453c-98ae-0e1b530d9247"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "modern_industrialization:silver_ingot",
+          "Count": 12
+        },
+        {
+          "id": "minecraft:gold_nugget",
+          "Count": 27
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "b098b1ea-f5b1-4b30-bee9-902204f45aa4",
+      "name": "Grass Block Production",
+      "description": "Use a dispenser to fill a composter. Yes it can right click the composter for a automated grass farm. Place a Basket on top of it to collect the Grass Blocks. Place a timer to automate it.",
+      "x": 45,
+      "y": 194,
+      "icon": {
+        "id": "minecraft:dispenser",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:dispenser",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "61281bf3-2ca2-44dd-a59b-43aa10e7dfd0"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:hopper",
+          "Count": 1
+        },
+        {
+          "id": "trapexpansion:fan",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "818e3b77-b85a-4906-af69-99edad8b4841",
+      "name": "Nickel",
+      "description": "Nickel is required for Tech Reborn later on. Go ahead, get some and be ready.",
+      "x": 283,
+      "y": 103,
+      "icon": {
+        "id": "modern_industrialization:nickel_ingot",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "modern_industrialization:nickel_ingot",
+                "Count": 1
+              },
+              "required": 33
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "1adc409f-9abb-453c-98ae-0e1b530d9247"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "modern_industrialization:nickel_ingot",
+          "Count": 12
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "77de77d0-068a-4649-9ed1-4932d336902b",
+      "name": "Knife",
+      "description": "A knife can be used to get Straw, or if you use a cutting board you can get several other resources.",
+      "x": 18,
+      "y": 114,
+      "icon": {
+        "id": "farmersdelight:iron_knife",
+        "Count": 1,
+        "tag": {
+          "Damage": 0
+        }
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "farmersdelight:iron_knife",
+                "Count": 1,
+                "tag": {
+                  "Damage": 0
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a6493aa4-cd33-471d-8148-be32b35e0ec3"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "farmersdelight:cutting_board",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "1a3b44b5-079f-4d97-afed-84bcdf57d2b3",
+      "name": "Lapis Lazuli",
+      "description": "A new Funnel opens a new sort of Items. This time, its Lapis. It`s useful for a lot of Stuff, just go and explore it.",
+      "x": 197,
+      "y": 65,
+      "icon": {
+        "id": "minecraft:lapis_lazuli",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:lapis_lazuli",
+                "Count": 1
+              },
+              "required": 64
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "1adc409f-9abb-453c-98ae-0e1b530d9247"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "modern_industrialization:electrum_ingot",
+          "Count": 6
+        },
+        {
+          "id": "modern_industrialization:silver_ingot",
+          "Count": 6
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "672bcee9-4ae4-4e6e-99ee-73eada826d3a",
+      "name": "Straw",
+      "description": "Straw can be farmed with a Knife by breaking Grass and Tall Grass.",
+      "x": 18,
+      "y": 78,
+      "icon": {
+        "id": "farmersdelight:straw",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "farmersdelight:straw",
+                "Count": 1
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "77de77d0-068a-4649-9ed1-4932d336902b"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "farmersdelight:canvas",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "387a550b-6321-43ec-8e28-1784fc572dfe",
+      "name": "Build a Smeltary",
+      "description": "The Smeltary has to be made out of blackstone, which can be found in the Nether. This is a Multiblock Structure with a size of 3x3x3.\nPlace the controller in layer 2. You can craft Electrum or Bronze etc.",
+      "x": 208,
+      "y": 139,
+      "icon": {
+        "id": "alloy_forgery:polished_blackstone_forge_controller",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "longDescription": " ",
+          "items": [
+            {
+              "item": {
+                "id": "alloy_forgery:polished_blackstone_forge_controller",
+                "Count": 1
+              }
+            },
+            {
+              "item": {
+                "id": "minecraft:polished_blackstone",
+                "Count": 1
+              },
+              "required": 16
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "e3d66976-e339-44a2-8a80-a7afdc32e06d"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "modern_industrialization:bronze_large_plate",
+          "Count": 8
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "1adc409f-9abb-453c-98ae-0e1b530d9247",
+      "name": "Gold Funnel",
+      "description": "Now that you are able to craft Electrum, you should be able to craft a Gold Funnel.\nIt provides you with a small amount of gold. But you now also have access to tin, nickel and quartz.",
+      "x": 245,
+      "y": 62,
+      "bigicon": true,
+      "icon": {
+        "id": "scf:gold_funnel",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "scf:gold_funnel",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "2086464c-4983-4f2e-bc75-8e5e7ea27e68"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:gold_block",
+          "Count": 1
+        }
+      ],
+      "rewardchoice": [
+        {
+          "id": "modern_industrialization:bronze_ingot",
+          "Count": 8
+        },
+        {
+          "id": "minecraft:copper_ingot",
+          "Count": 24
+        }
+      ],
+      "commandrewards": []
+    },
+    {
+      "uuid": "7cdca107-b10b-4b6c-9bf5-c11f8959dd73",
+      "name": "Autocrafting",
+      "description": "You can automate crafting tasks with the Automated Crafting Table. It requires an Redstone-Puls to work.",
+      "x": 16,
+      "y": 184,
+      "icon": {
+        "id": "automated_crafting:auto_crafter",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "automated_crafting:auto_crafter",
+                "Count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "61281bf3-2ca2-44dd-a59b-43aa10e7dfd0"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "8d374180-dee1-4db2-8a45-ba3efffb4c59",
+      "name": "Tin Ingots",
+      "description": "Another benefit of the Gold Funnel would be Tin. Tin is an important Ore that you need later on.",
+      "x": 212,
+      "y": 29,
+      "icon": {
+        "id": "modern_industrialization:tin_ingot",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "modern_industrialization:tin_ingot",
+                "Count": 1
+              },
+              "required": 32
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "1adc409f-9abb-453c-98ae-0e1b530d9247"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "minecraft:gold_nugget",
+          "Count": 18
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "451f6e99-fe21-46c4-8a30-5b105b766fca",
+      "name": "Upgrade your Mobfarm",
+      "description": "You can use Spikes to kill mobs. Fans are redstone powered blocks which pushes mobs away.",
+      "x": 83,
+      "y": 190,
+      "icon": {
+        "id": "trapexpansion:spike_trap",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "trapexpansion:spike_trap",
+                "Count": 1
+              },
+              "required": 4
+            },
+            {
+              "item": {
+                "id": "trapexpansion:fan",
+                "Count": 1
+              },
+              "required": 2
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "a6493aa4-cd33-471d-8148-be32b35e0ec3"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "trapexpansion:slippery_stone",
+          "Count": 8
+        },
+        {
+          "id": "trapexpansion:spike_trap",
+          "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    }
+  ],
+  "reputationBar": [],
+  "description": "This chapter shows you how to make bronze. This is a very short chapter, but it can take some time. You will also learn other Ore benefits here."
+}
