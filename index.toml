@@ -517,6 +517,14 @@ file = "config/okzoomer.json5"
 hash = "83180caab6056f3bd3b16c6f938daae2ade612c351ad039b615157c09a03c258"
 
 [[files]]
+file = "config/outvoted/client.json"
+hash = "2d3a9abec6676c752d10b09f9d00961ef0e65a9d8c6b391f1f286b5cb9799521"
+
+[[files]]
+file = "config/outvoted/common.json"
+hash = "b81029888e515531130643d90ec75b6e4bf00efeba04f460dde452bf4a7b333c"
+
+[[files]]
 file = "config/patchouli.json5"
 hash = "6b845c2c029ecd7aa8805fd2dcb0d6cea009bd718617086f70b61f142694c6b0"
 
@@ -618,7 +626,7 @@ hash = "53edd49d3e9cb39f87dc7f6fe3b3f0f48984650a28aac735909246034229da6a"
 
 [[files]]
 file = "config/slightguimodifications/cts.groovy"
-hash = "1ec2e27944bed3936bb82e46e8c861b69abe28280d9815408b755dea6bd912f9"
+hash = "18e040e4ea53279ef1e52b280091da5a0b6cf20ea861e8d21a72348ea5ef5427"
 
 [[files]]
 file = "config/slightguimodifications/slider.png"
