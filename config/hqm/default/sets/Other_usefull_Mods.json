@@ -69,49 +69,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "1c46a9b6-e54d-48a5-94de-dfb69a20ff16",
-      "name": "The System Glitch",
-      "description": "Start the fight by right clicking with your bound key on the Trail Keystone. You need a very large area of full blocks around it. Don\u0027t use burnable materials like wood!",
-      "x": 277,
-      "y": 85,
-      "icon": {
-        "id": "dml-refabricated:physically_condensed_matrix_fragment",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "KILL",
-          "mobs": [
-            {
-              "name": "System Glitch",
-              "icon": {
-                "id": "dml-refabricated:physically_condensed_matrix_fragment",
-                "Count": 1
-              },
-              "mob": "dml-refabricated:system_glitch",
-              "kills": 4
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "e01ef49a-f912-42b6-bb2a-114dde55cd76"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "dml-refabricated:pristine_matter_zombie",
-          "Count": 4
-        },
-        {
-          "id": "dml-refabricated:physically_condensed_matrix_fragment",
-          "Count": 2
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "363feefd-97df-43e5-ac04-29b4968d1103",
       "name": "Expanded Storage",
       "description": "As the Modname says, you are going to need to expand! In Chests and Barrels, not Size, I guess..\nAnyways, go ahead and check the new Storages out.",
@@ -210,6 +167,49 @@
         {
           "id": "minecraft:diamond",
           "Count": 4
+        }
+      ],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
+      "uuid": "1c46a9b6-e54d-48a5-94de-dfb69a20ff16",
+      "name": "The System Glitch",
+      "description": "Start the fight by right clicking with your bound key on the Trail Keystone. You need a very large area of full blocks around it. Don\u0027t use burnable materials like wood!",
+      "x": 277,
+      "y": 85,
+      "icon": {
+        "id": "dml-refabricated:physically_condensed_matrix_fragment",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "KILL",
+          "mobs": [
+            {
+              "name": "System Glitch",
+              "icon": {
+                "id": "dml-refabricated:physically_condensed_matrix_fragment",
+                "Count": 1
+              },
+              "mob": "dml-refabricated:system_glitch",
+              "kills": 4
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "e01ef49a-f912-42b6-bb2a-114dde55cd76"
+      ],
+      "optionlinks": [],
+      "reward": [
+        {
+          "id": "dml-refabricated:pristine_matter_zombie",
+          "Count": 4
+        },
+        {
+          "id": "dml-refabricated:physically_condensed_matrix_fragment",
+          "Count": 2
         }
       ],
       "rewardchoice": [],

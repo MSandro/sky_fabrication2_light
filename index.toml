@@ -193,6 +193,10 @@ file = "config/appleskin.json5"
 hash = "ae87f2d1b38dfd4b1e0767dfeb539261deaaf4fd2eb73692afcbaac7147855b9"
 
 [[files]]
+file = "config/artis-recrafted.json5"
+hash = "42e82b98e486ec35ea6731f44389c3ba8e57fde1aaa87a03e4bd8bdb5c55624b"
+
+[[files]]
 file = "config/artofalchemy.json"
 hash = "41c85140f7513df22f55ddfd57bb669f658abe109276f253e9fd21df74c11bab"
 
@@ -394,7 +398,7 @@ hash = "1b145ecb73315d77eb13d6e2987235a271ef9c8bc46f13f60b33f84d4d20bb0f"
 
 [[files]]
 file = "config/hqm/default/sets/Bronze_Age.json"
-hash = "e867a9a6ae0f89b0e02827bed301af209507b3a37828210ff22c482f0eebce49"
+hash = "6b63876774efa6be68f53782ac0b5b8dce0816539f0073b6c314cb60726668ae"
 
 [[files]]
 file = "config/hqm/default/sets/Electric_Age_-_Power.json"
@@ -402,11 +406,11 @@ hash = "561ffb03f80a909edc0bb7d9bf41321d38bd1be39f415d441d516c50a9663b72"
 
 [[files]]
 file = "config/hqm/default/sets/Other_usefull_Mods.json"
-hash = "16c907b995590f03b8cccf2594ac988ad4f3bf33b7942cdfb345b67f9e626964"
+hash = "d6e7dc532d76e7c90c70bd16f72216932cbc526ba6d276405d5b4400e46de637"
 
 [[files]]
 file = "config/hqm/default/sets/Steam_Age.json"
-hash = "aec5c58344cf38929a637213d1c37bb4cb8ff2608cbe05ad2f664b71fcb600d1"
+hash = "fedd1e2b5e8cc1363014217d39c851076022a7aa0f87ff6acd1a8fc680ed9367"
 
 [[files]]
 file = "config/hqm/default/sets/Stone_Age.json"
@@ -414,7 +418,7 @@ hash = "edce7e63c36c8500c983a63eaf863bd787182f0d57a7cd199739308ccba7d2c1"
 
 [[files]]
 file = "config/hqm/default/sets/The_Beginning.json"
-hash = "ca7e3a2f420e3e9e3ef99597e3d8188c4355076f0bfa9dd06c94a9948e43cfa4"
+hash = "57c3ee364ad559d965c487eef2370a094fc9ff421fda3cfa0abc483d01e4222d"
 
 [[files]]
 file = "config/hqm/front.png"
@@ -626,7 +630,7 @@ hash = "53edd49d3e9cb39f87dc7f6fe3b3f0f48984650a28aac735909246034229da6a"
 
 [[files]]
 file = "config/slightguimodifications/cts.groovy"
-hash = "18e040e4ea53279ef1e52b280091da5a0b6cf20ea861e8d21a72348ea5ef5427"
+hash = "a6202eeb48ee5c4af131d9eb5b8f8f0a60653efdf9dad5a29d31f77d2ef881a8"
 
 [[files]]
 file = "config/slightguimodifications/slider.png"
@@ -869,6 +873,10 @@ file = "kubejs/config/packicon.png"
 hash = "3923ef08efa589017df80a88248fe59f84bcb4bdb110492d554dc2383c2ead67"
 
 [[files]]
+file = "kubejs/data/ae2wtlib/recipes/infinity_booster_card.json"
+hash = "b411b6ce2c44ecf114a31b68daf3f3925fa0d3f03c85c6139cb51836895a0b64"
+
+[[files]]
 file = "kubejs/data/agape_space/recipes/powergen.json"
 hash = "079a27f3994e3b08c2aea30cdf74bd0954f0cd42fdc37fa255784945894ec763"
 
@@ -897,20 +905,16 @@ file = "kubejs/data/alloy_forgery/recipes/electrum_ingot.json"
 hash = "6a1f09b35f5812e8b8ab28604236b185f72ca55cd00a11fc9f4244173b4542cc"
 
 [[files]]
-file = "kubejs/data/bigbenchtheory/recipes/big_bench.json"
-hash = "5aa94b7433c6448f32c05bcd38e006b52469474077231dba94eb04c874b775b4"
+file = "kubejs/data/artis/recipes/big_bench.json"
+hash = "eaf87b056ddd5c5c7399d008a44445fb78c76d4d78fb2781f2e59eb24aa4c65d"
 
 [[files]]
-file = "kubejs/data/bigbenchtheory/recipes/bigger_bench.json"
-hash = "f9e8dc846c579d143a382b3cc995da2204b543acf1c6ef896e772b294838c4eb"
+file = "kubejs/data/artis/recipes/bigger_bench.json"
+hash = "b06fe270a04462cbcf7297ebe24b7b36345fae4b627c22c6ca295c5de5eebfcf"
 
 [[files]]
-file = "kubejs/data/bigbenchtheory/recipes/biggest_bench.json"
-hash = "055da0f9882d4b1b4e7d927e1813d71809c393f604a23c578ec4eeeae5a0bc27"
-
-[[files]]
-file = "kubejs/data/bigbenchtheory/recipes/tiny_bench.json"
-hash = "3ba20c34dfef26d784e8bd111e9abfcfa4a50b5905df6d55c6d77f32d05bc147"
+file = "kubejs/data/artis/recipes/biggest_bench.json"
+hash = "d160b66120a50895cd64566e89366961bccf4e7a0e9101a0e8a265a829f2fe6b"
 
 [[files]]
 file = "kubejs/data/compress/recipes/compressed_ruby_block_1-tr.json"
@@ -1166,7 +1170,7 @@ hash = "ab6cee147beca75146a38183da8ef8b673500c28d47a08508880e789489fb76d"
 
 [[files]]
 file = "kubejs/data/minecraft/recipes/sky-island_activator.json"
-hash = "d90da0c3ad63296308e582d755c1570287375e5009c3efbfbb287ff128ce925a"
+hash = "dc4bdf29a29ada6c739c6d96d53a5e222b79d12a2ba31049dfaaa00973720ec9"
 
 [[files]]
 file = "kubejs/data/minecraft/recipes/skyutils_charcoal.json"
@@ -1482,7 +1486,7 @@ hash = "275f937e3c2be1d0d973c0ab308c6f876f1c3e1d218b3d678a926ecc54a5442c"
 
 [[files]]
 file = "kubejs/data/scf/recipes/gold_funnel.json"
-hash = "95a926feb644bbd9dfbb43f5b55c92a938bfdbf92717ddda658e3fbecaef9850"
+hash = "33da182205b17c957ca72ce70c47f17de6bce7a22d23cd4f2f305506ea4e1e74"
 
 [[files]]
 file = "kubejs/data/scf/recipes/iron_funnel.json"
@@ -1691,6 +1695,11 @@ metafile = true
 [[files]]
 file = "mods/art-of-alchemy-continued.toml"
 hash = "254744eeab2d096cb23ce1f4b34c3dbbfd04a489ab505c0af7b1c556bf414a25"
+metafile = true
+
+[[files]]
+file = "mods/artis-recrafted.toml"
+hash = "ea54b179080401f582c6f70961d2fff7f609e43a6e08946ca79e41f1fa389232"
 metafile = true
 
 [[files]]
@@ -2336,11 +2345,6 @@ metafile = true
 [[files]]
 file = "mods/terrarian-slimes.toml"
 hash = "4b702e534332c658dc42b056807d6ccbc1767ea6a4a11b29e89964f48c8736f8"
-metafile = true
-
-[[files]]
-file = "mods/the-big-bench-theory.toml"
-hash = "316cbc01c473dbed31508b04733cc7b144fced8c579f60b4c1a24ba364a629e8"
 metafile = true
 
 [[files]]

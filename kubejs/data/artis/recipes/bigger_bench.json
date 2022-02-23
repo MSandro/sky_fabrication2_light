@@ -1,5 +1,5 @@
 {
-  "type": "bigbenchtheory:crafting_shaped",
+  "type": "artis:big_bench_shaped",
   "pattern": [
     "#####",
     "#####",
@@ -9,13 +9,13 @@
   ],
   "key": {
     "#": {
-      "item": "bigbenchtheory:big_bench"
+      "item": "artis:big_bench"
     },
     "D": {
       "item": "minecraft:diamond_block"
     }
   },
   "result": {
-    "item": "bigbenchtheory:bigger_bench"
+    "item": "artis:bigger_bench"
   }
 }
