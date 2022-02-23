@@ -394,7 +394,7 @@ hash = "1b145ecb73315d77eb13d6e2987235a271ef9c8bc46f13f60b33f84d4d20bb0f"
 
 [[files]]
 file = "config/hqm/default/sets/Bronze_Age.json"
-hash = "e867a9a6ae0f89b0e02827bed301af209507b3a37828210ff22c482f0eebce49"
+hash = "6b63876774efa6be68f53782ac0b5b8dce0816539f0073b6c314cb60726668ae"
 
 [[files]]
 file = "config/hqm/default/sets/Electric_Age_-_Power.json"
@@ -402,11 +402,11 @@ hash = "561ffb03f80a909edc0bb7d9bf41321d38bd1be39f415d441d516c50a9663b72"
 
 [[files]]
 file = "config/hqm/default/sets/Other_usefull_Mods.json"
-hash = "16c907b995590f03b8cccf2594ac988ad4f3bf33b7942cdfb345b67f9e626964"
+hash = "d6e7dc532d76e7c90c70bd16f72216932cbc526ba6d276405d5b4400e46de637"
 
 [[files]]
 file = "config/hqm/default/sets/Steam_Age.json"
-hash = "aec5c58344cf38929a637213d1c37bb4cb8ff2608cbe05ad2f664b71fcb600d1"
+hash = "fedd1e2b5e8cc1363014217d39c851076022a7aa0f87ff6acd1a8fc680ed9367"
 
 [[files]]
 file = "config/hqm/default/sets/Stone_Age.json"
@@ -414,7 +414,7 @@ hash = "edce7e63c36c8500c983a63eaf863bd787182f0d57a7cd199739308ccba7d2c1"
 
 [[files]]
 file = "config/hqm/default/sets/The_Beginning.json"
-hash = "ca7e3a2f420e3e9e3ef99597e3d8188c4355076f0bfa9dd06c94a9948e43cfa4"
+hash = "57c3ee364ad559d965c487eef2370a094fc9ff421fda3cfa0abc483d01e4222d"
 
 [[files]]
 file = "config/hqm/front.png"
@@ -626,7 +626,7 @@ hash = "53edd49d3e9cb39f87dc7f6fe3b3f0f48984650a28aac735909246034229da6a"
 
 [[files]]
 file = "config/slightguimodifications/cts.groovy"
-hash = "18e040e4ea53279ef1e52b280091da5a0b6cf20ea861e8d21a72348ea5ef5427"
+hash = "a6202eeb48ee5c4af131d9eb5b8f8f0a60653efdf9dad5a29d31f77d2ef881a8"
 
 [[files]]
 file = "config/slightguimodifications/slider.png"
@@ -1482,7 +1482,7 @@ hash = "275f937e3c2be1d0d973c0ab308c6f876f1c3e1d218b3d678a926ecc54a5442c"
 
 [[files]]
 file = "kubejs/data/scf/recipes/gold_funnel.json"
-hash = "95a926feb644bbd9dfbb43f5b55c92a938bfdbf92717ddda658e3fbecaef9850"
+hash = "33da182205b17c957ca72ce70c47f17de6bce7a22d23cd4f2f305506ea4e1e74"
 
 [[files]]
 file = "kubejs/data/scf/recipes/iron_funnel.json"

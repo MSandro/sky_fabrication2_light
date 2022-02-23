@@ -5,8 +5,8 @@
       "uuid": "d304704d-a70c-4ad5-b9b8-4cb89a470c93",
       "name": "Golden Furnace",
       "description": "As you might see, the Golden Furnace is the next Tier one in the Furnace Area.",
-      "x": 296,
-      "y": 21,
+      "x": 203,
+      "y": 104,
       "icon": {
         "id": "fabric-furnaces:gold_furnace",
         "Count": 1
@@ -26,7 +26,7 @@
         }
       ],
       "prerequisites": [
-        "2ec2349f-4aed-4a60-b1c0-16d5b90068e2"
+        "1998d4b9-a052-4cb0-9868-8af236f429b4"
       ],
       "optionlinks": [],
       "reward": [
@@ -46,8 +46,8 @@
       "uuid": "2086464c-4983-4f2e-bc75-8e5e7ea27e68",
       "name": "Electrum",
       "description": "The Smeltary also allows you to get Electrum. It`s required for the Gold Funnel. Use Silver and Gold (found in the Nether) to produce it.",
-      "x": 248,
-      "y": 139,
+      "x": 255,
+      "y": 47,
       "icon": {
         "id": "modern_industrialization:electrum_ingot",
         "Count": 1
@@ -149,8 +149,8 @@
       "uuid": "cde04530-827e-4656-8003-b15a3d8e11a3",
       "name": "Next Wand upgrade",
       "description": "You are tired of breaking the Stone Wand really fast? Well... Simple build a Iron Wand now. Its has much more Durability.",
-      "x": 126,
-      "y": 193,
+      "x": 127,
+      "y": 173,
       "icon": {
         "id": "wands:iron_wand",
         "Count": 1,
@@ -273,8 +273,8 @@
       "uuid": "4c636b43-0242-4c39-9964-48badd7703ab",
       "name": "Bronze \u0026 More",
       "description": "Finally you are able to get mixed Ingots.\nYou will need a lot of Bronze in the next Age, start producing some.",
-      "x": 205,
-      "y": 96,
+      "x": 201,
+      "y": 44,
       "bigicon": true,
       "icon": {
         "id": "modern_industrialization:bronze_ingot",
@@ -308,11 +308,43 @@
       "commandrewards": []
     },
     {
+      "uuid": "1998d4b9-a052-4cb0-9868-8af236f429b4",
+      "name": "Your first Gold",
+      "description": "collect some gold in the Nether. Gold Blocks can be found in Bastions.",
+      "x": 203,
+      "y": 139,
+      "icon": {
+        "id": "minecraft:gold_block",
+        "Count": 1
+      },
+      "tasks": [
+        {
+          "type": "DETECT",
+          "items": [
+            {
+              "item": {
+                "id": "minecraft:gold_block",
+                "Count": 1
+              },
+              "required": 8
+            }
+          ]
+        }
+      ],
+      "prerequisites": [
+        "e3d66976-e339-44a2-8a80-a7afdc32e06d"
+      ],
+      "optionlinks": [],
+      "reward": [],
+      "rewardchoice": [],
+      "commandrewards": []
+    },
+    {
       "uuid": "a628c171-32ff-4941-a851-55ea536ea2ec",
       "name": "Nether Quartz",
       "description": "You are tired of searching for Nether Quartz? Well, lucky you I guess! With the Gold Funnel, you are able to obtain Nether Quartz now.",
-      "x": 248,
-      "y": 14,
+      "x": 282,
+      "y": 94,
       "icon": {
         "id": "minecraft:quartz",
         "Count": 1
@@ -470,8 +502,8 @@
       "uuid": "7cc01421-e0b7-49cd-9b7c-7746c73332b6",
       "name": "Upgrade your Furnace",
       "description": "You should upgrade your Furnace now to at least Iron-Tier. It is faster and more efficient.",
-      "x": 138,
-      "y": 166,
+      "x": 119,
+      "y": 110,
       "icon": {
         "id": "fabric-furnaces:iron_furnace",
         "Count": 1
@@ -673,47 +705,6 @@
       "commandrewards": []
     },
     {
-      "uuid": "2ec2349f-4aed-4a60-b1c0-16d5b90068e2",
-      "name": "Gold Nuggets",
-      "description": "With the Nether Gold you will get Gold Nuggets. Use them to get Ingots.",
-      "x": 296,
-      "y": 65,
-      "icon": {
-        "id": "minecraft:gold_nugget",
-        "Count": 1
-      },
-      "tasks": [
-        {
-          "type": "DETECT",
-          "items": [
-            {
-              "item": {
-                "id": "minecraft:gold_nugget",
-                "Count": 1
-              },
-              "required": 63
-            }
-          ]
-        }
-      ],
-      "prerequisites": [
-        "1adc409f-9abb-453c-98ae-0e1b530d9247"
-      ],
-      "optionlinks": [],
-      "reward": [
-        {
-          "id": "modern_industrialization:silver_ingot",
-          "Count": 12
-        },
-        {
-          "id": "minecraft:gold_nugget",
-          "Count": 27
-        }
-      ],
-      "rewardchoice": [],
-      "commandrewards": []
-    },
-    {
       "uuid": "b098b1ea-f5b1-4b30-bee9-902204f45aa4",
       "name": "Grass Block Production",
       "description": "Use a dispenser to fill a composter. Yes it can right click the composter for a automated grass farm. Place a Basket on top of it to collect the Grass Blocks. Place a timer to automate it.",
@@ -757,8 +748,8 @@
       "uuid": "818e3b77-b85a-4906-af69-99edad8b4841",
       "name": "Nickel",
       "description": "Nickel is required for Tech Reborn later on. Go ahead, get some and be ready.",
-      "x": 283,
-      "y": 103,
+      "x": 298,
+      "y": 139,
       "icon": {
         "id": "modern_industrialization:nickel_ingot",
         "Count": 1
@@ -836,8 +827,8 @@
       "uuid": "1a3b44b5-079f-4d97-afed-84bcdf57d2b3",
       "name": "Lapis Lazuli",
       "description": "A new Funnel opens a new sort of Items. This time, its Lapis. It`s useful for a lot of Stuff, just go and explore it.",
-      "x": 197,
-      "y": 65,
+      "x": 225,
+      "y": 182,
       "icon": {
         "id": "minecraft:lapis_lazuli",
         "Count": 1
@@ -914,8 +905,8 @@
       "uuid": "387a550b-6321-43ec-8e28-1784fc572dfe",
       "name": "Build a Smeltary",
       "description": "The Smeltary has to be made out of blackstone, which can be found in the Nether. This is a Multiblock Structure with a size of 3x3x3.\nPlace the controller in layer 2. You can craft Electrum or Bronze etc.",
-      "x": 208,
-      "y": 139,
+      "x": 241,
+      "y": 94,
       "icon": {
         "id": "alloy_forgery:polished_blackstone_forge_controller",
         "Count": 1
@@ -942,7 +933,7 @@
         }
       ],
       "prerequisites": [
-        "e3d66976-e339-44a2-8a80-a7afdc32e06d"
+        "1adc409f-9abb-453c-98ae-0e1b530d9247"
       ],
       "optionlinks": [],
       "reward": [
@@ -958,8 +949,8 @@
       "uuid": "1adc409f-9abb-453c-98ae-0e1b530d9247",
       "name": "Gold Funnel",
       "description": "Now that you are able to craft Electrum, you should be able to craft a Gold Funnel.\nIt provides you with a small amount of gold. But you now also have access to tin, nickel and quartz.",
-      "x": 245,
-      "y": 62,
+      "x": 250,
+      "y": 136,
       "bigicon": true,
       "icon": {
         "id": "scf:gold_funnel",
@@ -979,7 +970,7 @@
         }
       ],
       "prerequisites": [
-        "2086464c-4983-4f2e-bc75-8e5e7ea27e68"
+        "1998d4b9-a052-4cb0-9868-8af236f429b4"
       ],
       "optionlinks": [],
       "reward": [
@@ -1035,8 +1026,8 @@
       "uuid": "8d374180-dee1-4db2-8a45-ba3efffb4c59",
       "name": "Tin Ingots",
       "description": "Another benefit of the Gold Funnel would be Tin. Tin is an important Ore that you need later on.",
-      "x": 212,
-      "y": 29,
+      "x": 280,
+      "y": 182,
       "icon": {
         "id": "modern_industrialization:tin_ingot",
         "Count": 1
