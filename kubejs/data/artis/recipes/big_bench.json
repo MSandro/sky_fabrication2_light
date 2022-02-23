@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "tag": "c:crafting_tables"
+      "tag": "c:workbench"
     },
     "I": {
       "item": "minecraft:iron_block"
     }
   },
   "result": {
-    "item": "bigbenchtheory:big_bench"
+    "item": "artis:big_bench"
   }
 }
