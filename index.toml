@@ -873,10 +873,6 @@ file = "kubejs/config/packicon.png"
 hash = "3923ef08efa589017df80a88248fe59f84bcb4bdb110492d554dc2383c2ead67"
 
 [[files]]
-file = "kubejs/data/ae2wtlib/recipes/infinity_booster_card.json"
-hash = "b411b6ce2c44ecf114a31b68daf3f3925fa0d3f03c85c6139cb51836895a0b64"
-
-[[files]]
 file = "kubejs/data/agape_space/recipes/powergen.json"
 hash = "079a27f3994e3b08c2aea30cdf74bd0954f0cd42fdc37fa255784945894ec763"
 
@@ -1478,7 +1474,7 @@ hash = "404adf15c5153bc348e02083a9faeeffcc2e3bbd1879533f069b69c941c542ff"
 
 [[files]]
 file = "kubejs/data/scf/recipes/cobble_funnel.json"
-hash = "ae95ef5c01798414ba6d6b71ad1588beae694f13b878d85eb2c30ec1beb58eea"
+hash = "ea9023794568aae587ac04279f221035e53eccd4bad7e4b47b33773c171ef94f"
 
 [[files]]
 file = "kubejs/data/scf/recipes/diamond_funnel.json"

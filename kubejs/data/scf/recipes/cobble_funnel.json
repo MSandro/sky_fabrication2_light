@@ -7,9 +7,8 @@
     "XGX"
   ],
   "key": {
-
     "S": {
-      "item": "simple_pipes:pipe_stone_item"
+      "item": "adorn:stone_post"
     },
     "C": {
       "item": "minecraft:cobblestone"
@@ -19,7 +18,7 @@
     },
     "P": {
       "item": "minecraft:gunpowder"
-    }
+    },
     "X": {
       "item": "compress:compressed_cobblestone_1"
     }
