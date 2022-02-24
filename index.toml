@@ -2114,7 +2114,7 @@ metafile = true
 
 [[files]]
 file = "mods/more-tooltips.toml"
-hash = "e30cfcbbd5344f3d07197a68bd8bad1436139e62ce6541aa7a990f541564b098"
+hash = "6ecb7b3fb1174dae44195e46a26005996cb72218a6e98da8a00ba51f9fb25ee7"
 metafile = true
 
 [[files]]
