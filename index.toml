@@ -222,7 +222,7 @@ hash = "d3cd801cc293fcfd3be1e926ae9570b74efdf5f509e33c0c9a6433b997b630a7"
 
 [[files]]
 file = "config/charm.toml"
-hash = "3f1a3caa4a8e94e36e96bd78b125ae627264be36974fc370c17e890bb4c73cb8"
+hash = "5f48c4b2800f9ecad02f4ea35b2edcf0f55c189614ba40dc440b1fb985686bb8"
 
 [[files]]
 file = "config/collective-fabric.json"
@@ -234,7 +234,7 @@ hash = "ed7f51ef415266a82f33db62ea941c714186525ae15b8820b1db0fd97fc8d170"
 
 [[files]]
 file = "config/computercraft-client.toml"
-hash = "8e1af48fbafb26e374fb91793cd950e32dc4008e423267f8d2006c2350bfd567"
+hash = "20772df2e321ec660a746f6d1a11395b62679c6301c84bacacb2f51ab02a9db1"
 
 [[files]]
 file = "config/conjuring.json5"
@@ -242,7 +242,7 @@ hash = "a423d731479439c2e8b6f5139c1fd57cb1f8178d53d9257e9608d1a839f161d7"
 
 [[files]]
 file = "config/couplings.toml"
-hash = "4f06a78d802b1aadd5f3a04604e4d29dde0e4b3c65de09c6a6f880d613a6381c"
+hash = "802bb98b04663d303f9bea8df2c3484663ce4f1ebe7ae832b5035ed7613e3fcb"
 
 [[files]]
 file = "config/craftingtweaks.toml"
@@ -262,27 +262,11 @@ hash = "a2e255585d2565f4430d202c59d4ffb7b984b3133d5cea400435633489ac561a"
 
 [[files]]
 file = "config/dark-enchanting.json5"
-hash = "50c2b978c74f3bbab46d75cf3375776f58bb5078216535d33903204ae035a64d"
+hash = "32ebf4c14c536fa1a2627f047629fce6f976e16b64ab09700cf5d13ffe59f690"
 
 [[files]]
 file = "config/dashloader.json"
 hash = "1b114505c28cedc31030f290a4aa640f665f71e05c95c9851bfb8a816cecfaeb"
-
-[[files]]
-file = "config/diggusmaximus/blacklist.json5"
-hash = "7a20ccfbebca1f6fdd7f0285212874b06f9ada427b8be8da16f4d6e0d8c5fb27"
-
-[[files]]
-file = "config/diggusmaximus/config.json5"
-hash = "15cb1242739eb085992b2c21eef6d36a48010f27b9b726da59c0dd63d47950bb"
-
-[[files]]
-file = "config/diggusmaximus/excavatingshapes.json5"
-hash = "05de273d15d9a402fef2eb692ae3c866614ea0c774aca784ce052ec8b67cbbe1"
-
-[[files]]
-file = "config/diggusmaximus/grouping.json5"
-hash = "ef4721e167e20865ec1b660e75471a86364e6cc653404baefd1d66938d8bb900"
 
 [[files]]
 file = "config/dml-refabricated.json"
@@ -305,6 +289,10 @@ file = "config/dynamicfps.toml"
 hash = "37192c981587637ee01f337fa4900b7ba834ae2c7e1f4a612d09876170feaa4b"
 
 [[files]]
+file = "config/endrem.json"
+hash = "d9e4b391b40de197414cae998d16d8c95d88b3cd7b2c14571215280e04e293c5"
+
+[[files]]
 file = "config/enhanced_bes.properties"
 hash = "3b5917ddcae6721f0c0043e34892d4adec5736e2646d22acb58a3c2216403dee"
 
@@ -314,11 +302,11 @@ hash = "ba9942626c7ff4074472573f03b0a732ccd76b0ed6059e75bdf441c4300dcda3"
 
 [[files]]
 file = "config/fabric-furnaces.json"
-hash = "10d251407f7e65286cb7255cac0f08451d02cae92c7dbd036253d08e3b10b02d"
+hash = "e48315703a5d9dd631055c5e702d3a60464f336d1147b029bb6bc81d236473ec"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "2618c78e97fe2d65b5c4acec9a93e895006bb169d58ae95f273e99ae5936ac5d"
+hash = "a140aab9c12ebf01329a9f0a66d2c335fc326adff5a8040ec85a244ffd2fc71e"
 
 [[files]]
 file = "config/fabric/more-villages-mod-config.properties"
@@ -362,11 +350,11 @@ hash = "939cfc95ed4a7480ac08d3f692538a348af72c6db693349c61f93f926976d1f2"
 
 [[files]]
 file = "config/ferritecore.mixin.properties"
-hash = "dc95b343dfcae85c62ca38a7c378e02839a98f13f161058381e1a5a404222a2d"
+hash = "e252e0ec8ce9bc7c8b60c2af88ff26aa70dd951128224edaa8d555e3d82f82ae"
 
 [[files]]
 file = "config/getoffmylawn.json5"
-hash = "acd107b54f6cd2bd4aab155bb4235661173586d20fb4152f18084eb4706cc645"
+hash = "4b2b3c1b0e3ba4093c3755bf3fd07d0d693686f2984464944225df9573ac9493"
 
 [[files]]
 file = "config/goblintraders.toml"
@@ -426,11 +414,11 @@ hash = "a5df90d8e02f813040fedc6a1fffe01d151299d0db893aaa2df018b59e091739"
 
 [[files]]
 file = "config/indium-renderer.properties"
-hash = "873816975ad963f6ae18269eaf76863a97fd38d01a007bef08e0b6d450bb9023"
+hash = "019e10ca1147c2a6554c0bef8a357994f4f7904c38d11357f1dd3f1419b588ef"
 
 [[files]]
 file = "config/inmis.json"
-hash = "2a1ce19a3c8348ef8cf9275b0c208140f74488f7f33cb783b2e71a1daa9c324e"
+hash = "974a15869ce891a183afed89f153bdfaf73d390fd3db3eb437f33fd68d2fd719"
 
 [[files]]
 file = "config/inventorysorter/blacklist.json5"
@@ -562,7 +550,7 @@ hash = "86c87d2fa23f934c046e147e59ed1009b2e54d6813ef4f2f1bf388b10dee9415"
 
 [[files]]
 file = "config/repurposed_structures-fabric/biome_dimension_allow_disallow_configs.json5"
-hash = "0787ec5312d68e7625d9039b37845a85b00f0b6585b256ef479749edeb661b81"
+hash = "c1b5e66bcbaacc9b5d9d56f976b23deeafd30890947b9e9db67a2deecb2f5ac7"
 
 [[files]]
 file = "config/repurposed_structures-fabric/general_configs.json5"
@@ -570,7 +558,7 @@ hash = "0d13fe18606da714acc250bf2b1804c014eda934cf046fb13a3c15427edacd6e"
 
 [[files]]
 file = "config/repurposed_structures-fabric/natural_mob_spawning_configs.json5"
-hash = "1cdc6dbb738c76a7d5b361da3feb8f8b0b0b6f23d92dd533264c3bb603c7b28d"
+hash = "f10160b75b13e96790bb418625613491e019fc1f1dad3395852e85d66f0a9fcc"
 
 [[files]]
 file = "config/resourcemelons.json"
@@ -579,10 +567,6 @@ hash = "c1cf05cdb34341e982e29620d9839036f37ba886b09c0791b1464f498cc1486a"
 [[files]]
 file = "config/ringsofascension.json"
 hash = "7c3bd1ed8b822e032b1b4b78422854b51e644a1b27916a56884d2bdadb1e2661"
-
-[[files]]
-file = "config/roughlyenoughitems/config.json5"
-hash = "4016c25ff0db4db630b544efd268d4631063c06beeb3968950f9eaf41d372551"
 
 [[files]]
 file = "config/rrp.properties"
@@ -630,7 +614,7 @@ hash = "53edd49d3e9cb39f87dc7f6fe3b3f0f48984650a28aac735909246034229da6a"
 
 [[files]]
 file = "config/slightguimodifications/cts.groovy"
-hash = "a6202eeb48ee5c4af131d9eb5b8f8f0a60653efdf9dad5a29d31f77d2ef881a8"
+hash = "54b8ceaa0c299851e6ae28e7d2aebac97c9f8bb4b1dd356028fd45e5a25f67cb"
 
 [[files]]
 file = "config/slightguimodifications/slider.png"
@@ -650,7 +634,7 @@ hash = "5865d6d3964d017c2bb8b8fd90f059016094abc6b85f3e5781ffa9959fd345c6"
 
 [[files]]
 file = "config/sodium-extra-options.json"
-hash = "0075b8e757e3fd71c36018f3eba7ec672b00288d9173fa1016fac3a0c69b9b3a"
+hash = "86b452f89bc8bf6fd78aae0ef215dec5e3a7a307043fbe904468140a84a6128a"
 
 [[files]]
 file = "config/sodium-extra.properties"
@@ -726,7 +710,7 @@ hash = "1335a55e8b05de9b0995fa97fa80346754276233600ab1c1efc5f77519ae01ae"
 
 [[files]]
 file = "config/trade.properties"
-hash = "4ebedcaed6d8c6d0f3097cb4ca445c48bfc08759a55d9ac8a351d82b214a1f72"
+hash = "ca2143eff82689909be178b39c247c12a7e367adbec5a3d7197630d80d2a173f"
 
 [[files]]
 file = "config/universal-graves.json"
@@ -759,22 +743,6 @@ hash = "9965e774258f29f1f770978510a8a961c7f0fac8347ea543ca58b4ca6306b2f8"
 [[files]]
 file = "config/waystones/config.json"
 hash = "d0a26b9f0bf347fa65489757136645df57ab58a5a9e603444d9a19bfd17d77c0"
-
-[[files]]
-file = "config/xaerominimap.txt"
-hash = "e14d38c7b277353eef45f81e471bddee4a6f6d8784dd324ad6f8d409299e0ede"
-
-[[files]]
-file = "config/xaerominimap_entities.json"
-hash = "906d5ebbccd63f1d723c60c93fbf34ec04515cbd81c2393ae6c7c3e3593fdb87"
-
-[[files]]
-file = "config/xaeropatreon.txt"
-hash = "36a890045fce4aa69f1c550d5a49a62b336cbb7911a7afa6956fcce5d4d9dcb8"
-
-[[files]]
-file = "config/xaeroworldmap.txt"
-hash = "72cc351b41c1ed55d4916db62086d102ad7d2fe7a3529cf39a4abd328511d740"
 
 [[files]]
 file = "config/yosbr/options.txt"
@@ -873,10 +841,6 @@ file = "kubejs/config/packicon.png"
 hash = "3923ef08efa589017df80a88248fe59f84bcb4bdb110492d554dc2383c2ead67"
 
 [[files]]
-file = "kubejs/data/ae2wtlib/recipes/infinity_booster_card.json"
-hash = "b411b6ce2c44ecf114a31b68daf3f3925fa0d3f03c85c6139cb51836895a0b64"
-
-[[files]]
 file = "kubejs/data/agape_space/recipes/powergen.json"
 hash = "079a27f3994e3b08c2aea30cdf74bd0954f0cd42fdc37fa255784945894ec763"
 
@@ -933,8 +897,12 @@ file = "kubejs/data/compress/recipes/un_ruby_block.json"
 hash = "bdf420a0235475840f092cdbf9c53ca47805e5ca933b5d1d04b0929791ee00fe"
 
 [[files]]
+file = "kubejs/data/croparia/recipes/diamond_knife.json"
+hash = "c9721a6ecee64764df59e29bf991e8b7a5eef7373db17790b4fa50879d066117"
+
+[[files]]
 file = "kubejs/data/croparia/recipes/elematilius.json"
-hash = "a564b8f4cf1f2646b7b2468aeafb8444c99f11c92edfe80cb8aa9f3280eb1559"
+hash = "c2aa551bfb581136f51fc958bee9aa14ddcdba1089537f48d90faaf49e6ef9cc"
 
 [[files]]
 file = "kubejs/data/croparia/recipes/fruit_grass1.json"
@@ -947,6 +915,14 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 [[files]]
 file = "kubejs/data/croparia/recipes/fruit_tin.json"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/gold_knife.json"
+hash = "2c96ec838bc9880a2e7824ee5cd4acd49875b662ed834dd107361ecee0cd6878"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/iron_knife.json"
+hash = "ff8e7e56a56526b41c3fa2310c0d16ef1b5600fc8a031857e0eb7a1bdc00a0b6"
 
 [[files]]
 file = "kubejs/data/croparia/recipes/obsidian_pestle.json"
@@ -963,6 +939,10 @@ hash = "5fb11bd8eb83c8d38e024bceca50d930fbd43dcee6f652db54d22bb6c4422495"
 [[files]]
 file = "kubejs/data/croparia/recipes/seed_crop_grass1.json"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/data/croparia/recipes/stone_knife.json"
+hash = "1b55dae0e0da6ef1b59fc396dea3563a84725c98024fedc44cc22593a23aa9e2"
 
 [[files]]
 file = "kubejs/data/dark-enchanting/recipes/dark_enchanter.json"
@@ -1478,7 +1458,7 @@ hash = "404adf15c5153bc348e02083a9faeeffcc2e3bbd1879533f069b69c941c542ff"
 
 [[files]]
 file = "kubejs/data/scf/recipes/cobble_funnel.json"
-hash = "ae95ef5c01798414ba6d6b71ad1588beae694f13b878d85eb2c30ec1beb58eea"
+hash = "ea9023794568aae587ac04279f221035e53eccd4bad7e4b47b33773c171ef94f"
 
 [[files]]
 file = "kubejs/data/scf/recipes/diamond_funnel.json"
@@ -1674,7 +1654,7 @@ metafile = true
 
 [[files]]
 file = "mods/appleskin.toml"
-hash = "082135c24556aa8a471126624e61b1833b3a282f496ae5f05cc5835b7a2f748e"
+hash = "664393188ab72081641c56a747d28f9fab285e0788cafdccd41ccc22f631b69d"
 metafile = true
 
 [[files]]
@@ -1799,7 +1779,7 @@ metafile = true
 
 [[files]]
 file = "mods/cloth-config.toml"
-hash = "c8b792cdc006780b256e1a1a05fca91cc32542547d9805ece9b48eff78e5b2d6"
+hash = "fabf03324d8c6ac24b081cd5ad95e9af9956641d208ce3eab74d010d2300ac23"
 metafile = true
 
 [[files]]
@@ -1809,7 +1789,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective-fabric.toml"
-hash = "5718b6eef66da62cc5b5dab2e9348504ffa13a4eeee82c4aff19835d8b1dc311"
+hash = "f024d87a07f6564b5a0cd0148c5d852db3b559f514d4a31ed751523d9a1a579c"
 metafile = true
 
 [[files]]
@@ -1959,7 +1939,7 @@ metafile = true
 
 [[files]]
 file = "mods/geckolib.toml"
-hash = "61eb2d5e90f074f9c459e6f8cc1299f372ec016f7a2854457c041d3b0df33fda"
+hash = "09580343e10e01f37b80e73269656dbc44718c55f46bda28adba3cd4613d1de6"
 metafile = true
 
 [[files]]
@@ -2114,7 +2094,7 @@ metafile = true
 
 [[files]]
 file = "mods/more-tooltips.toml"
-hash = "e30cfcbbd5344f3d07197a68bd8bad1436139e62ce6541aa7a990f541564b098"
+hash = "6ecb7b3fb1174dae44195e46a26005996cb72218a6e98da8a00ba51f9fb25ee7"
 metafile = true
 
 [[files]]
@@ -2179,7 +2159,7 @@ metafile = true
 
 [[files]]
 file = "mods/paradise-lost.toml"
-hash = "c0bf0fdf0c8f91c4bb92544f02f416fa7624801e23132ae0054db7786332bb12"
+hash = "51ccffaa7158265150dc8ede6e04376aa006d4a74d67359839f74cc3e3ccf5c6"
 metafile = true
 
 [[files]]
@@ -2194,7 +2174,7 @@ metafile = true
 
 [[files]]
 file = "mods/platforms-fabric.toml"
-hash = "7bbe01696ab8aadb6340dcee1b08aa5c0752e78d039a841dec86480439b0de39"
+hash = "9c61d874e33e5dd53c2af73a60c9cdfc5b69cb913207f874041894c750ef2c39"
 metafile = true
 
 [[files]]
@@ -2210,11 +2190,6 @@ metafile = true
 [[files]]
 file = "mods/red-bits.toml"
 hash = "ddae311d3ff880a840316b0ffc9762f674232e7ce08d1b1cbdec7b634a5d5f30"
-metafile = true
-
-[[files]]
-file = "mods/reeses-sodium-options.toml"
-hash = "fca0ababf5eccca1dae2a19d671157fc69b98174f6f44962983c8ffd3253c3d7"
 metafile = true
 
 [[files]]
@@ -2239,7 +2214,7 @@ metafile = true
 
 [[files]]
 file = "mods/roughly-enough-items.toml"
-hash = "bba5713cc6c013b39f78c9884f1a4f881992961e40d5d023760d369449de2cc4"
+hash = "15b61f1a6a5b007edec9dae917d8291ef262e3a91dea135e8b27eaa50be66542"
 metafile = true
 
 [[files]]
@@ -2254,7 +2229,7 @@ metafile = true
 
 [[files]]
 file = "mods/shetiphiancore-fabric.toml"
-hash = "d364ee790bf0e32a126e4b899efdabbd594e8420ad17031fa4d2bd736e11b9fc"
+hash = "281b7e3e54328fb770b4c32c84c1aa9322dbf934b5f051814aab8d90d0258225"
 metafile = true
 
 [[files]]
@@ -2294,7 +2269,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium-extra.toml"
-hash = "75e82d1342fc64d64d70bc53291e49a8398a540e02994f2102fd5810107e107e"
+hash = "8e9405e689b11bdd77fcdf6bbc359a3dc9dd7af302272a2b7ee167f0daee8a77"
 metafile = true
 
 [[files]]
@@ -2424,12 +2399,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.toml"
-hash = "7aa86fccbf692362df641171daf7a6617cc7ae82fafce8404089e2d67295041c"
+hash = "8d7e90409683fc0e0a5b9615eff7c98fb96b1bb27e4cdf5698a6477c48ddd506"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.toml"
-hash = "0b24b0f9935d845d72c8430ef54a493db9c79709f8a09ba2308fe313d927796b"
+hash = "b991989e02f08cc191108baeac09d22a0ac9100a278aa46078e4f039e25d1ccb"
 metafile = true
 
 [[files]]
